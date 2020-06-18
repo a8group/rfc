@@ -1,4 +1,4 @@
-# REST API Guidelines
+# RESTful API Guidelines
 
 ## 1. 摘要
 
