@@ -1,4 +1,4 @@
-# RFC for Architect Ecosystems
+# RFCs for Architect Ecosystems
 
 
 
