@@ -25,13 +25,13 @@
 ##### 2.1.1.1. URL路径
 
 ```http
-/v1/orders/a100/sub_orders/1
+/api/v1/orders/a100/sub_orders/1
 ```
 
 ##### 2.1.1.2. URL Query参数
 
 ```http
-/v1/orders?page=1&per_page=10
+/api/v1/orders?page=1&per_page=10
 ```
 
 ##### 2.1.1.3. json字段Key
@@ -87,7 +87,10 @@
 {
   "id": "a100",
   "sub_orders": [
-    ...
+    {
+      "id": 1,
+      "price": 100
+    }
   ]
 }
 ```
